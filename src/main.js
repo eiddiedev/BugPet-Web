@@ -4,7 +4,7 @@ const app = document.querySelector("#app");
 
 const appConfig = {
   productName: "BugPet",
-  downloadUrl: "https://github.com/eiddiedev/BugPet/releases/latest/download/BugPet.dmg",
+  downloadUrl: "https://github.com/eiddiedev/BugPet/releases/download/v0.1.0/BugPet.dmg",
   releasesUrl: "https://github.com/eiddiedev/BugPet/releases",
   repoUrl: "https://github.com/eiddiedev/BugPet",
   feedbackEmail: "2314869561a@gmail.com",
