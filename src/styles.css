@@ -138,6 +138,10 @@ img {
   font-size: 0.8rem;
 }
 
+.lang-button[data-lang="zh"] {
+  font-family: "Ark Pixel CN", "Azeret Mono", monospace;
+}
+
 .lang-button.is-active {
   background: var(--text);
   color: var(--bg);
@@ -338,6 +342,14 @@ img {
   font-size: clamp(1.65rem, 4.8vw, 3rem);
   line-height: 1.06;
   text-transform: uppercase;
+}
+
+.page--zh .section-heading h2 {
+  font-family: "Ark Pixel CN", "Azeret Mono", monospace;
+  font-size: clamp(1.5rem, 4.2vw, 2.4rem);
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  text-transform: none;
 }
 
 .section-body {

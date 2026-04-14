@@ -4,7 +4,7 @@ const app = document.querySelector("#app");
 
 const appConfig = {
   productName: "BugPet",
-  downloadUrl: "https://github.com/eiddiedev/BugPet/releases/latest",
+  downloadUrl: "https://github.com/eiddiedev/BugPet/releases/latest/download/BugPet.dmg",
   releasesUrl: "https://github.com/eiddiedev/BugPet/releases",
   repoUrl: "https://github.com/eiddiedev/BugPet",
   feedbackEmail: "2314869561a@gmail.com",
@@ -146,9 +146,7 @@ const translations = {
   }
 };
 
-const initialLang =
-  localStorage.getItem("bugpet-lang") ||
-  (navigator.language.toLowerCase().startsWith("zh") ? "zh" : "en");
+const initialLang = localStorage.getItem("bugpet-lang") || "en";
 
 let currentLang = initialLang in translations ? initialLang : "en";
 
